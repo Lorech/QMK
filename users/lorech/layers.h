@@ -9,7 +9,8 @@
 
 enum userspace_layers {
     _QWERTY,
-    _COLMAK,
+    /* TODO: Figure out how to keep this as an option without bricking keyboards that use this enum. */
+    /* _COLEMAK, */
     _COLEMAK_DH,
     _DVORAK,
     _PLOVER,
